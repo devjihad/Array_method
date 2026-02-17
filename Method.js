@@ -38,7 +38,11 @@ const value2 = Array.isArray(array2)
 console.log(value)
 console.log(value2)
 
-// Array.delete 
+// // Array.delete 
 
 const deleteindex = delete array2[2]
 console.log(array2)
+
+// Array.concat 
+const sum = array1.concat(array2)
+console.log(sum)
